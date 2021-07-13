@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How To Use PickleC2 &mdash; Read the Docs Sphinx Theme 0.5.2 documentation</title>
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/debug.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="PickleC2 Modules" href="Modules.html" />
+    <link rel="prev" title="Installation and Setup" href="installation.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html">
+            <img src="_static/logo.png" class="logo" alt="Logo"/>
+          </a>
+              <div class="version">
+                0.5.2
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div>
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Main">
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation and Setup</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">How To Use PickleC2</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-help">How to help</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-listener">How to Listener</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#start-listener">Start Listener</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#stop-listener">Stop Listener</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#list-listeners">List Listeners</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#load-listener">Load Listener</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-implant">How to Implant</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#generate-implant">Generate Implant</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#list-active-implant">List Active Implant</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-interact">How to Interact</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#execute-powershell">Execute Powershell</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#execute-cmd">Execute CMD</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#invoke-module">Invoke Module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#set-sleep">Set Sleep</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#exit-implant">Exit Implant</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Modules.html">PickleC2 Modules</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FAQ.html">FAQ (Frequently Asked Questions)</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" aria-label="Top" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Read the Docs Sphinx Theme</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+<div role="navigation" aria-label="Breadcrumbs">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>How To Use PickleC2</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/Usage.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="how-to-use-picklec2">
+<h1>How To Use PickleC2<a class="headerlink" href="#how-to-use-picklec2" title="Permalink to this headline"></a></h1>
+<p>PickleC2 is so simple and easy to use and everything you need will be found in help option</p>
+<div class="section" id="how-to-help">
+<h2>How to help<a class="headerlink" href="#how-to-help" title="Permalink to this headline"></a></h2>
+<p>The help command will show you everything you need and help can be used to show any option’s help through <code class="docutils literal notranslate"><span class="pre">help</span> <span class="pre">&lt;Option&gt;</span></code></p>
+<img alt="_images/help.png" src="_images/help.png" />
+</div>
+<div class="section" id="how-to-listener">
+<h2>How to Listener<a class="headerlink" href="#how-to-listener" title="Permalink to this headline"></a></h2>
+<p>You can use <code class="docutils literal notranslate"><span class="pre">help</span> <span class="pre">listener</span></code> command to show all the listener commands.</p>
+<img alt="_images/help_option.png" src="_images/help_option.png" />
+<p>Listeners is built on flask.</p>
+<p>FLASK is a popular Python web framework, meaning it is a third-party Python library used for developing web applications.</p>
+<div class="section" id="start-listener">
+<h3>Start Listener<a class="headerlink" href="#start-listener" title="Permalink to this headline"></a></h3>
+<p>You can start your listener through</p>
+<p><code class="docutils literal notranslate"><span class="pre">listener</span> <span class="pre">start</span> <span class="pre">[Listener_Name]</span> <span class="pre">[Listener_Interface]</span> <span class="pre">[Listener_Port]</span></code></p>
+<img alt="_images/start_listener.png" src="_images/start_listener.png" />
+</div>
+<div class="section" id="stop-listener">
+<h3>Stop Listener<a class="headerlink" href="#stop-listener" title="Permalink to this headline"></a></h3>
+<p>You can stop your listener through</p>
+<p><code class="docutils literal notranslate"><span class="pre">listener</span> <span class="pre">stop</span> <span class="pre">[Listener_Name]</span></code></p>
+<img alt="_images/stop_listener.png" src="_images/stop_listener.png" />
+</div>
+<div class="section" id="list-listeners">
+<h3>List Listeners<a class="headerlink" href="#list-listeners" title="Permalink to this headline"></a></h3>
+<p>You can list all the listeners through</p>
+<p><code class="docutils literal notranslate"><span class="pre">listener</span> <span class="pre">list</span></code></p>
+<img alt="_images/list_listener.png" src="_images/list_listener.png" />
+</div>
+<div class="section" id="load-listener">
+<h3>Load Listener<a class="headerlink" href="#load-listener" title="Permalink to this headline"></a></h3>
+<p>You can use load listener if you have a not active listeners and you need to active them.</p>
+<p><code class="docutils literal notranslate"><span class="pre">listener</span> <span class="pre">load</span></code></p>
+<img alt="_images/load_listener.png" src="_images/load_listener.png" />
+</div>
+</div>
+<div class="section" id="how-to-implant">
+<h2>How to Implant<a class="headerlink" href="#how-to-implant" title="Permalink to this headline"></a></h2>
+<p>In this section you will be able to create your implant.</p>
+<div class="section" id="generate-implant">
+<h3>Generate Implant<a class="headerlink" href="#generate-implant" title="Permalink to this headline"></a></h3>
+<p>You can generate implant through.</p>
+<p><code class="docutils literal notranslate"><span class="pre">implant</span> <span class="pre">generate</span> <span class="pre">[listener_name]</span> <span class="pre">[Implant_Lang]</span> <span class="pre">[Implant_Name]</span></code></p>
+<img alt="_images/generate_implant.png" src="_images/generate_implant.png" />
+</div>
+<div class="section" id="list-active-implant">
+<h3>List Active Implant<a class="headerlink" href="#list-active-implant" title="Permalink to this headline"></a></h3>
+<p>You can list all the active implant through</p>
+<p><code class="docutils literal notranslate"><span class="pre">implant</span> <span class="pre">list</span></code></p>
+<img alt="_images/list_implant.png" src="_images/list_implant.png" />
+</div>
+</div>
+<div class="section" id="how-to-interact">
+<h2>How to Interact<a class="headerlink" href="#how-to-interact" title="Permalink to this headline"></a></h2>
+<p>After receiving the implant shell you can interact with it through</p>
+<p><code class="docutils literal notranslate"><span class="pre">interact</span> <span class="pre">[Implant_Name]</span></code></p>
+<img alt="_images/interact.png" src="_images/interact.png" />
+<p>After entering the interact section you can use help command to show the interact commands.</p>
+<img alt="_images/help_interact.png" src="_images/help_interact.png" />
+<div class="section" id="execute-powershell">
+<h3>Execute Powershell<a class="headerlink" href="#execute-powershell" title="Permalink to this headline"></a></h3>
+<p>There is an option to execute a PowerShell Command through</p>
+<p><code class="docutils literal notranslate"><span class="pre">powershell</span> <span class="pre">[Command]</span></code></p>
+<img alt="_images/execute_powershell.png" src="_images/execute_powershell.png" />
+</div>
+<div class="section" id="execute-cmd">
+<h3>Execute CMD<a class="headerlink" href="#execute-cmd" title="Permalink to this headline"></a></h3>
+<p>There is an option to execute a CMD command through</p>
+<p><code class="docutils literal notranslate"><span class="pre">cmd</span> <span class="pre">[Command]</span></code></p>
+<img alt="_images/execute_cmd.png" src="_images/execute_cmd.png" />
+</div>
+<div class="section" id="invoke-module">
+<h3>Invoke Module<a class="headerlink" href="#invoke-module" title="Permalink to this headline"></a></h3>
+<img alt="_images/list_module.png" src="_images/list_module.png" />
+<p>There is an options to invoke a PowerShell script through</p>
+<p><code class="docutils literal notranslate"><span class="pre">module</span> <span class="pre">[Module_Name]</span></code></p>
+<img alt="_images/module.png" src="_images/module.png" />
+</div>
+<div class="section" id="set-sleep">
+<h3>Set Sleep<a class="headerlink" href="#set-sleep" title="Permalink to this headline"></a></h3>
+<p>There is an option to set a delay time through</p>
+<p><code class="docutils literal notranslate"><span class="pre">sleep</span> <span class="pre">[Secounds]</span></code></p>
+<img alt="_images/sleep.png" src="_images/sleep.png" />
+</div>
+<div class="section" id="exit-implant">
+<h3>Exit Implant<a class="headerlink" href="#exit-implant" title="Permalink to this headline"></a></h3>
+<p>There is an option to end the implant activity through</p>
+<p><code class="docutils literal notranslate"><span class="pre">exit</span></code></p>
+<img alt="_images/exit.png" src="_images/exit.png" />
+<a href="https://www.buymeacoffee.com/ret2pwn" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a></div>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="installation.html" class="btn btn-neutral float-left" title="Installation and Setup" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="Modules.html" class="btn btn-neutral float-right" title="PickleC2 Modules" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright Dave Snider, Read the Docs, Inc. &amp; contributors.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+    <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="Versions">
+      <span class="rst-current-version" data-toggle="rst-current-version">
+        <span class="fa fa-book"> Read the Docs</span>
+        v: latest
+        <span class="fa fa-caret-down"></span>
+      </span>
+      <div class="rst-other-versions">
+        <dl>
+          <dt>Versions</dt>
+            <dd><a href="#">0.1</a></dd>
+            <dd><a href="#">0.2</a></dd>
+            <dd><a href="#">0.3</a></dd>
+            <dd><a href="#">0.4</a></dd>
+            <dd><a href="#">0.5</a></dd>
+            <dd><a href="#">0.6</a></dd>
+            <dd><a href="#">0.7</a></dd>
+            <dd><a href="#">0.8</a></dd>
+            <dd><a href="#">0.9</a></dd>
+            <dd><a href="#">1.0</a></dd>
+            <dd><a href="#">1.1</a></dd>
+            <dd><a href="#">1.2</a></dd>
+            <dd><a href="#">1.3</a></dd>
+            <dd><a href="#">1.4</a></dd>
+            <dd><a href="#">1.5</a></dd>
+            <dd><a href="#">1.6</a></dd>
+            <dd><a href="#">1.7</a></dd>
+            <dd><a href="#">1.8</a></dd>
+            <dd><a href="#">1.9</a></dd>
+            <dd><a href="#">2.0</a></dd>
+            <dd><a href="#">2.1</a></dd>
+            <dd><a href="#">2.2</a></dd>
+            <dd><a href="#">2.3</a></dd>
+            <dd><a href="#">2.4</a></dd>
+            <dd><a href="#">2.5</a></dd>
+            <dd><a href="#">2.6</a></dd>
+            <dd><a href="#">2.7</a></dd>
+            <dd><a href="#">2.8</a></dd>
+            <dd><a href="#">2.9</a></dd>
+            <dd><a href="#">3.0</a></dd>
+            <dd><a href="#">3.1</a></dd>
+            <dd><a href="#">3.2</a></dd>
+            <dd><a href="#">3.3</a></dd>
+            <dd><a href="#">3.4</a></dd>
+            <dd><a href="#">3.5</a></dd>
+            <dd><a href="#">3.6</a></dd>
+            <dd><a href="#">3.7</a></dd>
+            <dd><a href="#">3.8</a></dd>
+            <dd><a href="#">3.9</a></dd>
+            <dd><a href="#">4.0</a></dd>
+            <dd><a href="#">4.1</a></dd>
+            <dd><a href="#">4.2</a></dd>
+            <dd><a href="#">4.3</a></dd>
+            <dd><a href="#">4.4</a></dd>
+            <dd><a href="#">4.5</a></dd>
+            <dd><a href="#">4.6</a></dd>
+            <dd><a href="#">4.7</a></dd>
+            <dd><a href="#">4.8</a></dd>
+            <dd><a href="#">4.9</a></dd>
+            <dd><a href="#">5.0</a></dd>
+            <dd><a href="#">5.1</a></dd>
+            <dd><a href="#">5.2</a></dd>
+            <dd><a href="#">5.3</a></dd>
+            <dd><a href="#">5.4</a></dd>
+            <dd><a href="#">5.5</a></dd>
+            <dd><a href="#">5.6</a></dd>
+            <dd><a href="#">5.7</a></dd>
+            <dd><a href="#">5.8</a></dd>
+            <dd><a href="#">5.9</a></dd>
+            <dd><a href="#">6.0</a></dd>
+            <dd><a href="#">6.1</a></dd>
+            <dd><a href="#">6.2</a></dd>
+            <dd><a href="#">6.3</a></dd>
+            <dd><a href="#">6.4</a></dd>
+            <dd><a href="#">6.5</a></dd>
+            <dd><a href="#">6.6</a></dd>
+            <dd><a href="#">6.7</a></dd>
+            <dd><a href="#">6.8</a></dd>
+            <dd><a href="#">6.9</a></dd>
+            <dd><a href="#">7.0</a></dd>
+            <dd><a href="#">7.1</a></dd>
+            <dd><a href="#">7.2</a></dd>
+            <dd><a href="#">7.3</a></dd>
+            <dd><a href="#">7.4</a></dd>
+            <dd><a href="#">7.5</a></dd>
+            <dd><a href="#">7.6</a></dd>
+            <dd><a href="#">7.7</a></dd>
+            <dd><a href="#">7.8</a></dd>
+            <dd><a href="#">7.9</a></dd>
+            <dd><a href="#">8.0</a></dd>
+            <dd><a href="#">8.1</a></dd>
+            <dd><a href="#">8.2</a></dd>
+            <dd><a href="#">8.3</a></dd>
+            <dd><a href="#">8.4</a></dd>
+            <dd><a href="#">8.5</a></dd>
+            <dd><a href="#">8.6</a></dd>
+            <dd><a href="#">8.7</a></dd>
+            <dd><a href="#">8.8</a></dd>
+            <dd><a href="#">8.9</a></dd>
+            <dd><a href="#">9.0</a></dd>
+            <dd><a href="#">9.1</a></dd>
+            <dd><a href="#">9.2</a></dd>
+            <dd><a href="#">9.3</a></dd>
+            <dd><a href="#">9.4</a></dd>
+            <dd><a href="#">9.5</a></dd>
+            <dd><a href="#">9.6</a></dd>
+            <dd><a href="#">9.7</a></dd>
+            <dd><a href="#">9.8</a></dd>
+            <dd><a href="#">9.9</a></dd>
+        </dl>
+        <dl>
+          <dt>Downloads</dt>
+          <dd><a href="#">PDF</a></dd>
+          <dd><a href="#">ePub</a></dd>
+          <dd><a href="#">HTML</a></dd>
+        </dl>
+        <dl>
+          <dt>On Read the Docs</dt>
+            <dd>
+              <a href="#">Project Home</a>
+            </dd>
+            <dd>
+              <a href="#">Builds</a>
+            </dd>
+        </dl>
+        <dl>
+          <dt>Debug</dt>
+          <dd><a href="#" data-toggle="rst-debug-badge">Swap badge position</a></dd>
+        </dl>
+      </div>
+    </div>
+
+</body>
+</html>

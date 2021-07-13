@@ -63,7 +63,7 @@ if not 'READTHEDOCS' in os.environ:
         range(1, 100)
     ))
 
-html_logo = "logo.png"
+html_logo = "./_static/logo.png"
 html_show_sourcelink = True
 
 htmlhelp_basename = slug
